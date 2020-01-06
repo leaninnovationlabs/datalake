@@ -12,7 +12,7 @@ events = spark.read \
   
 display(events)
 
-print('Displaying intial set of events')
+print('Displaying intial set of events v2')
 
 # COMMAND ----------
 
