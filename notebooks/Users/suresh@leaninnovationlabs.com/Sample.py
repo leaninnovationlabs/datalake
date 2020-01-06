@@ -12,6 +12,8 @@ events = spark.read \
   
 display(events)
 
+print('Displaying intial set of events')
+
 # COMMAND ----------
 
 # DBTITLE 1,Write out DataFrame as Databricks Delta data
@@ -92,5 +94,4 @@ display(spark.sql("DESCRIBE DETAIL events"))
 display(spark.sql("DESCRIBE FORMATTED events"))
 
 # COMMAND ----------
-
 
